@@ -1,0 +1,14 @@
+C:\Users\andre\Documents\Visual Studio 2013\Projects\OPCSimpleTrial1\bin\VS2013\Console.exe
+C:\Users\andre\Documents\Visual Studio 2013\Projects\OPCSimpleTrial1\bin\VS2013\Console.pdb
+C:\Users\andre\Documents\Visual Studio 2013\Projects\OPCSimpleTrial1\bin\VS2013\TBN451.dll
+C:\Users\andre\Documents\Visual Studio 2013\Projects\OPCSimpleTrial1\obj\x64\Debug\OPCSimpleTrial1_Console.vbprojResolveAssemblyReference.cache
+C:\Users\andre\Documents\Visual Studio 2013\Projects\OPCSimpleTrial1\obj\x64\Debug\Console.exe
+C:\Users\andre\Documents\Visual Studio 2013\Projects\OPCSimpleTrial1\obj\x64\Debug\Console.pdb
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\OPCSimpleTrial1\obj\x64\Debug\Console.exe
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\OPCSimpleTrial1\obj\x64\Debug\Console.pdb
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\OPCSimpleTrial1\bin\VS2013\Console.exe
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\OPCSimpleTrial1\bin\VS2013\Console.pdb
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\OPCSimpleTrial1\bin\VS2013\TBN451.dll
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\OPCSimpleTrial1\obj\x64\Debug\OPCSimpleTrial1_Console.vbprojResolveAssemblyReference.cache
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\Horizon OPC Server\obj\x64\Debug\Console.exe
+C:\Users\andre\OneDrive\Documents\Visual Studio\Projects\Horizon OPC Server\obj\x64\Debug\Console.pdb
