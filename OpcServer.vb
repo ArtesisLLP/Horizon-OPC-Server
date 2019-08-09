@@ -1035,8 +1035,19 @@ Namespace OPCSimpleTrial1
             Try
                 Application.Instance.VersionOtb = 446
                 Application.Instance.AppType = EnumApplicationType.EXECUTABLE
-                'Read local database connection string values
-                Dim CLSID As String = File.ReadAllText(find_my_directory("HorizonConfigV2Client1") & "\HorizonConfig\OPCCLSID.txt")
+
+                System.Console.WriteLine("Faraday Predictive OPC Server V1.0.0.0 Copyright 9 August 2019" & Microsoft.VisualBasic.Chr(10) & "")
+                'Read CLSID
+                Dim CLSID As String = ""
+                Try
+                    CLSID = File.ReadAllText(find_my_directory("HorizonConfigV2Client1") & "\HorizonConfig\OPCCLSID.txt")
+                    System.Console.WriteLine("CLSID read ok" & Microsoft.VisualBasic.Chr(10) & "")
+                Catch
+                    System.Console.WriteLine("CLSID file not found. Closing ..." & Microsoft.VisualBasic.Chr(10) & "")
+                    System.Console.ReadKey()
+                    End
+                End Try
+
                 Application.Instance.ClsidDa = CLSID '"{30593686-083B-4A4F-8A85-A5AE111951C9}"
                 Application.Instance.ProgIdDa = "FaradayPredictive.OPCServer.DA.1"
                 Application.Instance.VerIndProgIdDa = "FaradayPredictive.OPCServer.DA"
@@ -1071,7 +1082,7 @@ Namespace OPCSimpleTrial1
            exc.ToString)
                 Return Convert.ToInt32(EnumResultCode.E_FAIL)
             End Try
-            Return Convert.ToInt32(EnumResultCode.S_OK)
+                Return Convert.ToInt32(EnumResultCode.S_OK)
         End Function
 
         Public Function Start() As System.Int32
@@ -18149,6 +18160,8 @@ Namespace OPCSimpleTrial1
         End Function
         Public Sub ChangeValues()
 
+            'System.Console.WriteLine("Updating" & Microsoft.VisualBasic.Chr(10) & "")
+
             'Update DA server values
             Try
 
@@ -20137,6 +20150,8 @@ Namespace OPCSimpleTrial1
                 'Read encrypted text
                 cipherText = File.ReadAllText(find_my_directory("HorizonConfigV2Client1") & "\HorizonConfig\DatabaseConnectionClient-CONN.txt")
             Catch
+                System.Console.WriteLine("Connections file not found. Closing ..." & Microsoft.VisualBasic.Chr(10) & "")
+                System.Console.ReadKey()
                 End 'Closes all forms and running threads
             End Try
 
@@ -20153,6 +20168,8 @@ Namespace OPCSimpleTrial1
                 UserName = connectionstrings(1) '"sa"
                 Password = connectionstrings(2) '"andy"
             Catch ex As Exception
+                System.Console.WriteLine("Connections file not valid. Closing ..." & Microsoft.VisualBasic.Chr(10) & "")
+                System.Console.ReadKey()
                 End 'Closes all forms and running threads
             End Try
 

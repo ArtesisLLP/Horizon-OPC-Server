@@ -127,7 +127,6 @@ Namespace OPCSimpleTrial1
         If ResultCode.SUCCEEDED(result) Then
           console.StartSimulationThread()
         End If
-                System.Console.WriteLine("Faraday Predictive OPC Server Copyright 8 August 2019" & Microsoft.VisualBasic.Chr(10) & "")
                 System.Console.WriteLine("Press Ctrl-C to exit" & Microsoft.VisualBasic.Chr(10) & "")
         While Not Console.End
           '  TODO: place your cyclic code here            
@@ -170,7 +169,7 @@ Namespace OPCSimpleTrial1
       ' A switch to handle the event type.
       Select Case CtrlType
       Case MyWin32.CtrlTypes.CTRL_C_EVENT, MyWin32.CtrlTypes.CTRL_BREAK_EVENT, MyWin32.CtrlTypes.CTRL_CLOSE_EVENT, MyWin32.CtrlTypes.CTRL_LOGOFF_EVENT, MyWin32.CtrlTypes.CTRL_SHUTDOWN_EVENT
-        message = "Stop execution, since CTRL command!"
+                    message = "Closing following CTRL-C ..."
         Console.End = True
         ' break
       End Select

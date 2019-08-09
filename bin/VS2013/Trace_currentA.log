@@ -1,6 +1,6 @@
-I ALL 3788 08-12:31:38.692 Header row 1/5                                                                   Softing OPC Classic Toolkit V4.46, built Mar 20 2018. Process ID 24980 .Trace file no. 1
-I ALL 3788 08-12:31:38.693 Header row 2/5                                                                   TBN 4.46.0.3806, built with .NET 4.0.30319.42000, running on Microsoft Windows NT 6.2.9200.0 x64
-I ALL 3788 08-12:31:38.693 Header row 3/5                                                                   OTBu 4.46.0.3806, built with VC++ 1500, running on Microsoft Windows NT 6.2.9200 (2)  x64
-I ALL 3788 08-12:31:38.693 Header row 4/5                                                                   No licenses activated (Demo Mode).
-I ALL 3788 08-12:31:38.693 Header row 5/5                                                                   DCOM initialization not called.
-E ALL 3788 08-12:31:38.701 [ENT|00010802| AsS Entry]                                                        DCOM server CoInitializeSecurity (a:2, i:2) result: 0x80010119
+I ALL 7348 09-14:43:11.505 Header row 1/5                                                                   Softing OPC Classic Toolkit V4.46, built Mar 20 2018. Process ID 25892 .Trace file no. 1
+I ALL 7348 09-14:43:11.507 Header row 2/5                                                                   TBN 4.46.0.3806, built with .NET 4.0.30319.42000, running on Microsoft Windows NT 6.2.9200.0 x64
+I ALL 7348 09-14:43:11.507 Header row 3/5                                                                   OTBu 4.46.0.3806, built with VC++ 1500, running on Microsoft Windows NT 6.2.9200 (2)  x64
+I ALL 7348 09-14:43:11.507 Header row 4/5                                                                   No licenses activated (Demo Mode).
+I ALL 7348 09-14:43:11.507 Header row 5/5                                                                   DCOM initialization not called.
+E ALL 7348 09-14:43:11.518 [ENT|00010802| AsS Entry]                                                        DCOM server CoInitializeSecurity (a:2, i:2) result: 0x80010119
