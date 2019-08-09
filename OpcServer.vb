@@ -10,6 +10,9 @@
 'Reads non-encrypted CLSID {xxx} from OPCCLSID.txt in HorizonConfig
 'Licence code to be added in Prepare
 '
+'9 August 2019
+'Added console messages
+'
 
 Imports System
 Imports System.Collections
