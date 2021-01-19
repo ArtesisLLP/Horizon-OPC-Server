@@ -1,0 +1,6 @@
+﻿Andy-Surface\SQLEXPRESS
+sa
+Andy
+artesistest.uksouth.cloudapp.azure.com,1433
+sa
+ArtesisMCM123

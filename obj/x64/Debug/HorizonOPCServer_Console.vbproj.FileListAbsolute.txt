@@ -9,3 +9,11 @@ C:\Users\andre\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Serv
 C:\Users\andre\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\bin\VS2013\HorizonOPCServer.pdb
 C:\Users\andre\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\bin\VS2013\TBN451.dll
 C:\Users\andre\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\obj\x64\Debug\HorizonOPCServer_Console.vbprojResolveAssemblyReference.cache
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\obj\x64\Debug\HorizonOPCServer.exe
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\obj\x64\Debug\HorizonOPCServer.pdb
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\bin\VS2013\HorizonOPCServer.exe
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\bin\VS2013\HorizonOPCServer.pdb
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\bin\VS2013\TBN451.dll
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\obj\x64\Debug\HorizonOPCServer_Console.vbprojAssemblyReference.cache
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\obj\x64\Debug\HorizonOPCServer_Console.vbproj.CoreCompileInputs.cache
+C:\Users\AndyAuto\OneDrive\Documents\Visual Studio\Git development\Horizon OPC Server\obj\x64\Debug\HorizonOPCServer_Console.vbproj.CopyComplete

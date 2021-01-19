@@ -1,0 +1,15 @@
+You need to have a file called 
+"LastDataBaseName.txt"
+
+which you can leave completely empty. 
+
+You also need a file called 
+"DatabaseConnectionClient.txt"
+which must be in the following format:
+
+<Your instance of SQL Server name, e.g. DQMX1VC-Desktop\SQLEXPRESS>
+<your username>
+<your password>
+<Cloud server ip address connection details (ask Andy for these unless you know it)>
+<our default username>
+<our default password>

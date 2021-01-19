@@ -1,0 +1,9 @@
+Startup in [sync] = False
+Startup with [DAQ] = False
+Startup with [backup] = True
+Startup with [OPC-DA] = False
+Startup with [Trend] = False
+Startup with [Multiplot] = False
+Startup with [USBCopier] = False
+Startup with [Modbus] = False
+Startup with [Watchdog] = True

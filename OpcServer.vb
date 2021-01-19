@@ -13,6 +13,9 @@
 '9 August 2019
 'Added console messages
 '
+'1 December 2020
+'Added licence code
+'
 
 Imports System
 Imports System.Collections
@@ -1039,7 +1042,7 @@ Namespace OPCSimpleTrial1
                 Application.Instance.VersionOtb = 446
                 Application.Instance.AppType = EnumApplicationType.EXECUTABLE
 
-                System.Console.WriteLine("Faraday Predictive OPC Server V1.0.0.0 Copyright 9 August 2019" & Microsoft.VisualBasic.Chr(10) & "")
+                System.Console.WriteLine("Faraday Predictive OPC Server V1.0.0.0 Copyright 1 December 2020" & Microsoft.VisualBasic.Chr(10) & "")
                 'Read CLSID
                 Dim CLSID As String = ""
                 Try
@@ -1115,14 +1118,19 @@ Namespace OPCSimpleTrial1
             '	NOTE: you can activate one or all of the features at the same time
             '	activate the COM-DA Server feature
             ' result = Application.Instance.Activate(EnumFeature.DA_SERVER, "XXXX-XXXX-XXXX-XXXX-XXXX")
+
+            result = Application.Instance.Activate(EnumFeature.DA_SERVER, "1100-042c-1da2-fb45-026c")
             If Not ResultCode.SUCCEEDED(result) Then
                 Return result
             End If
 
             '	END TODO - binary license activation
 
+            'So the code below is now obsolete
+
             result = Application.Instance.Initialize(aMyCreator)
             Return result
+
         End Function
 
         Public Function ProcessCommandLine(ByVal commandLine As String) As System.Int32

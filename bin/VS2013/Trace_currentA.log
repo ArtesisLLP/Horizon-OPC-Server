@@ -1,93 +1,14 @@
-I ALL 7808 09-14:49:23.218 Header row 1/5                                                                   Softing OPC Classic Toolkit V4.46, built Mar 20 2018. Process ID 26004 .Trace file no. 1
-I ALL 7808 09-14:49:23.218 Header row 2/5                                                                   TBN 4.46.0.3806, built with .NET 4.0.30319.42000, running on Microsoft Windows NT 6.2.9200.0 x64
-I ALL 7808 09-14:49:23.218 Header row 3/5                                                                   OTBu 4.46.0.3806, built with VC++ 1500, running on Microsoft Windows NT 6.2.9200 (2)  x64
-I ALL 7808 09-14:49:23.218 Header row 4/5                                                                   No licenses activated (Demo Mode).
-I ALL 7808 09-14:49:23.218 Header row 5/5                                                                   DCOM initialization not called.
-E ALL 7808 09-14:49:23.230 [ENT|00010802| AsS Entry]                                                        DCOM server CoInitializeSecurity (a:2, i:2) result: 0x80010119
-E OPC 4032 09-14:49:52.397 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:49:56.865 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:49:58.128 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:49:59.807 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:50:03.623 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:50:04.859 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:50:05.608 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-14:50:07.907 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 0748 09-14:50:09.622 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 0748 09-14:50:10.481 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 0748 09-14:50:11.299 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:13:26.108 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:13:27.887 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:13:28.988 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:13:30.161 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:13:31.521 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:13:33.676 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 0748 09-15:23:10.817 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:23:26.408 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:23:35.896 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:24:26.030 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4240 09-15:24:42.440 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:25:03.004 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4032 09-15:27:56.539 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 2584 09-16:19:24.165 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:46.782 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:46.783 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:46.783 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:47.783 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:47.783 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:48.784 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:48.784 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:49.785 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:49.785 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:50.785 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:50.785 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:51.785 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:51.785 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:52.786 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:52.786 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:53.777 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:53.777 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:54.768 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:54.783 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:54.783 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:55.784 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:55.784 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:56.784 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:56.787 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:57.815 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:57.865 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:58.790 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:58.822 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:58.822 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:59.809 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:59.824 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:46:59.824 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:00.814 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:00.820 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:00.826 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:00.826 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:01.817 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:01.833 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:01.833 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:02.834 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:02.834 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:03.835 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:03.835 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 4032 09-16:47:04.193 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 4032 09-16:47:04.194 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 4032 09-16:47:04.194 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 4032 09-16:47:04.195 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:04.835 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:04.835 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:05.836 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:05.836 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:06.836 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:06.836 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:07.827 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:07.827 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:08.818 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:08.834 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:08.834 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:09.835 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:09.835 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:10.837 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
-E OPC 2584 09-16:47:10.838 License Check                                                                    Runtime (90 minutes) of Demo Version elapsed
+I ALL 6364 19-12:20:31.781 Header row 1/5                                                                   Softing OPC Classic Toolkit V4.47, built Jul 30 2020. Process ID 4148 .Trace file no. 1
+I ALL 6364 19-12:20:31.808 Header row 2/5                                                                   TBN 4.47.1.3920, built with .NET 4.0.30319.42000, running on Microsoft Windows NT 6.2.9200.0 x64
+I ALL 6364 19-12:20:31.828 Header row 3/5                                                                   OTBu 4.47.1.3920, built with VC++ 1500, running on Microsoft Windows NT 6.2.9200 (2)  x64
+I ALL 6364 19-12:20:31.852 Header row 4/5                                                                   No licenses activated (Demo Mode).
+I ALL 6364 19-12:20:31.863 Header row 5/5                                                                   DCOM initialization not called.
+I     6364 19-12:20:31.881 Application.Activate                                                             Result of activating OPC DA Server license: 0
+E ALL 6364 19-12:20:31.905 [ENT|00010802| AsS Entry]                                                        DCOM server CoInitializeSecurity (a:2, i:2) result: 0x80010119
+E OPC 4236 19-12:21:00.295 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+E OPC 9828 19-12:21:01.367 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+E OPC 9828 19-12:21:02.137 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+E OPC 4236 19-12:21:02.982 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+E OPC 4236 19-12:21:04.120 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+E OPC 4236 19-12:21:04.921 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+E OPC 4236 19-12:21:06.041 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
