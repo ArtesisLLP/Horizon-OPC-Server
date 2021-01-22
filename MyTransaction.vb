@@ -26,8 +26,8 @@ Imports System.Text
 Imports Softing.OPCToolbox
 Imports Softing.OPCToolbox.Server
 
-Namespace OPCSimpleTrial1
-  Public Class MyTransaction
+Namespace HorizonOPCServer 'OPCSimpleTrial1
+    Public Class MyTransaction
         Inherits DaTransaction
 #Region "Public Methods"
 
@@ -62,7 +62,7 @@ Namespace OPCSimpleTrial1
 
                 i += 1
             End While
-            Return CompleteRequests
+            Return CompleteRequests()
         End Function
 
         Public Overloads Overrides Function HandleWriteRequests() As System.Int32
@@ -83,7 +83,7 @@ Namespace OPCSimpleTrial1
 
                 i += 1
             End While
-            Return CompleteRequests
+            Return CompleteRequests()
         End Function
 #End Region
     End Class

@@ -25,17 +25,17 @@ Imports System.Collections
 Imports System.Text
 Imports Softing.OPCToolbox
 Imports Softing.OPCToolbox.Server
-Namespace OPCSimpleTrial1
-  Public Class MyDaAddressSpaceRoot
-  Inherits DaAddressSpaceRoot
+Namespace HorizonOPCServer 'OPCSimpleTrial1
+    Public Class MyDaAddressSpaceRoot
+        Inherits DaAddressSpaceRoot
 #Region "Public Methods"
-    '--------------------
-    Public Overloads Overrides Function QueryAddressSpaceElementData(ByVal elementId As String, ByRef anAddressSpaceElement As AddressSpaceElement) As System.Int32
-      '  TODO: add string based address space validations
-      anAddressSpaceElement = Nothing
-      Return Convert.ToInt32(EnumResultCode.E_NOTIMPL)
-    End Function
-    '--
+        '--------------------
+        Public Overloads Overrides Function QueryAddressSpaceElementData(ByVal elementId As String, ByRef anAddressSpaceElement As AddressSpaceElement) As System.Int32
+            '  TODO: add string based address space validations
+            anAddressSpaceElement = Nothing
+            Return Convert.ToInt32(EnumResultCode.E_NOTIMPL)
+        End Function
+        '--
 #End Region
-  End Class
+    End Class
 End Namespace

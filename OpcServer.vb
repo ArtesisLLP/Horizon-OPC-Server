@@ -27,7 +27,7 @@ Imports System.Data.SqlClient
 Imports System.Data
 Imports System.IO
 
-Namespace OPCSimpleTrial1
+Namespace HorizonOPCServer 'OPCSimpleTrial1
     Public Class OpcServer
 #Region "Constructor"
         '-----------------
@@ -1071,24 +1071,24 @@ Namespace OPCSimpleTrial1
                 Dim traceLevelAll As EnumTraceGroup = [Enum].ToObject(GetType(EnumTraceGroup), EnumTraceGroup.ALL)
                 Dim traceLevelServer As EnumTraceGroup = [Enum].ToObject(GetType(EnumTraceGroup), EnumTraceGroup.SERVER)
 
-                Application.Instance.EnableTracing( _
-                    traceLevelAll, _
-                    traceLevelAll, _
-                    traceLevelServer, _
-                    traceLevelServer, _
-                    "Trace.txt", _
-                    System.Convert.ToUInt32(1000000), _
+                Application.Instance.EnableTracing(
+                    traceLevelAll,
+                    traceLevelAll,
+                    traceLevelServer,
+                    traceLevelServer,
+                    "Trace.txt",
+                    System.Convert.ToUInt32(1000000),
                     System.Convert.ToUInt32(0))
 
             Catch exc As Exception
-                Trace( _
-           EnumTraceLevel.ERR, _
-           [Enum].ToObject(GetType(EnumTraceGroup), EnumTraceGroup.USER1), _
-           "OpcServer::Initialize", _
+                Trace(
+           EnumTraceLevel.ERR,
+           [Enum].ToObject(GetType(EnumTraceGroup), EnumTraceGroup.USER1),
+           "OpcServer::Initialize",
            exc.ToString)
                 Return Convert.ToInt32(EnumResultCode.E_FAIL)
             End Try
-                Return Convert.ToInt32(EnumResultCode.S_OK)
+            Return Convert.ToInt32(EnumResultCode.S_OK)
         End Function
 
         Public Function Start() As System.Int32
@@ -3804,7 +3804,7 @@ Namespace OPCSimpleTrial1
                 m_daS32Driven2Impeller1Ia.AddProperty(daS32Driven2Impeller1IaProperty)
 
                 m_daS32Driven2Impeller1Ia.ValueChanged(New ValueQT(1, [Enum].ToObject(GetType(EnumQuality), EnumQuality.GOOD), DateTime.Now))
-     
+
                 'Add subnode for trend value S1ElectricalRotorIb
                 m_daS1ElectricalRotorIb = New MyDaAddressSpaceElement
                 m_daS1ElectricalRotorIb.Name = "S1ElectricalRotorIb"
@@ -18160,10 +18160,10 @@ Namespace OPCSimpleTrial1
 
 
             Catch exc As Exception
-                Trace( _
-           EnumTraceLevel.ERR, _
-           [Enum].ToObject(GetType(EnumTraceGroup), EnumTraceGroup.USER1), _
-           "OpcServer:BuildAddressSpace", _
+                Trace(
+           EnumTraceLevel.ERR,
+           [Enum].ToObject(GetType(EnumTraceGroup), EnumTraceGroup.USER1),
+           "OpcServer:BuildAddressSpace",
            exc.ToString)
                 Return Convert.ToInt32(EnumResultCode.E_FAIL)
             End Try
@@ -20191,12 +20191,12 @@ Namespace OPCSimpleTrial1
             'Form connection string
             Dim strconnectionstring As String = ""
             'In this server package, Local is always true
-                strconnectionstring = "Data source = " & DbServer & ";"
-                strconnectionstring = strconnectionstring & "Initial Catalog = " & DbName & ";"
-                strconnectionstring = strconnectionstring & "User Id = " & UserName & ";"
-                strconnectionstring = strconnectionstring & "Password = " & Password & ";"
-                strconnectionstring = strconnectionstring & "Connection Timeout=15" & ";"
-                strconnectionstring = strconnectionstring & "Pooling=false" & ";" 'Setting pooling to false forces creation of a new connection each time, so better for detecting when SQLServer is disconnected
+            strconnectionstring = "Data source = " & DbServer & ";"
+            strconnectionstring = strconnectionstring & "Initial Catalog = " & DbName & ";"
+            strconnectionstring = strconnectionstring & "User Id = " & UserName & ";"
+            strconnectionstring = strconnectionstring & "Password = " & Password & ";"
+            strconnectionstring = strconnectionstring & "Connection Timeout=15" & ";"
+            strconnectionstring = strconnectionstring & "Pooling=false" & ";" 'Setting pooling to false forces creation of a new connection each time, so better for detecting when SQLServer is disconnected
 
             Dim m_cn As New SqlConnection
             m_cn.ConnectionString = strconnectionstring

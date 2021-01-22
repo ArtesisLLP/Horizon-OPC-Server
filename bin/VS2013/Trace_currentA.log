@@ -1,14 +1,8 @@
-I ALL 6364 19-12:20:31.781 Header row 1/5                                                                   Softing OPC Classic Toolkit V4.47, built Jul 30 2020. Process ID 4148 .Trace file no. 1
-I ALL 6364 19-12:20:31.808 Header row 2/5                                                                   TBN 4.47.1.3920, built with .NET 4.0.30319.42000, running on Microsoft Windows NT 6.2.9200.0 x64
-I ALL 6364 19-12:20:31.828 Header row 3/5                                                                   OTBu 4.47.1.3920, built with VC++ 1500, running on Microsoft Windows NT 6.2.9200 (2)  x64
-I ALL 6364 19-12:20:31.852 Header row 4/5                                                                   No licenses activated (Demo Mode).
-I ALL 6364 19-12:20:31.863 Header row 5/5                                                                   DCOM initialization not called.
-I     6364 19-12:20:31.881 Application.Activate                                                             Result of activating OPC DA Server license: 0
-E ALL 6364 19-12:20:31.905 [ENT|00010802| AsS Entry]                                                        DCOM server CoInitializeSecurity (a:2, i:2) result: 0x80010119
-E OPC 4236 19-12:21:00.295 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 9828 19-12:21:01.367 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 9828 19-12:21:02.137 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4236 19-12:21:02.982 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4236 19-12:21:04.120 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4236 19-12:21:04.921 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
-E OPC 4236 19-12:21:06.041 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
+I ALL 9416 22-16:43:14.525 Header row 1/5                                                                   Softing OPC Classic Toolkit V4.47, built Jul 30 2020. Process ID 13784 .Trace file no. 1
+I ALL 9416 22-16:43:14.527 Header row 2/5                                                                   TBN 4.47.1.3920, built with .NET 4.0.30319.42000, running on Microsoft Windows NT 6.2.9200.0 x64
+I ALL 9416 22-16:43:14.528 Header row 3/5                                                                   OTBu 4.47.1.3920, built with VC++ 1500, running on Microsoft Windows NT 6.2.9200 (2)  x64
+I ALL 9416 22-16:43:14.528 Header row 4/5                                                                   No licenses activated (Demo Mode).
+I ALL 9416 22-16:43:14.529 Header row 5/5                                                                   DCOM initialization not called.
+I     9416 22-16:43:14.534 Application.Activate                                                             Result of activating OPC DA Server license: 0
+E ALL 9416 22-16:43:14.549 [ENT|00010802| AsS Entry]                                                        DCOM server CoInitializeSecurity (a:2, i:2) result: 0x80010119
+E OPC 2016 22-16:43:35.528 (srv|00010F74| Softing OPC Client)                                               IOPCBrowse::GetProperties (0.0 ms)[0x1]
